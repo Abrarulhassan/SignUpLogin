@@ -1,0 +1,166 @@
+body
+{
+    background-image:url("images/img1.jpg");
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap:wrap-reverse;
+}
+.Form_Login
+{
+    flex-wrap: wrap;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    padding-left: 30px;
+    margin-top:90px;
+    border-radius: 10px;
+}
+h1
+{
+    text-align: center;
+}
+#emails,#pass
+{
+    font-size: 20px;
+}
+input
+{
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 5px;
+    border:2px solid lightskyblue;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+#buton
+{
+    width: 266px;
+    height: 45px;
+    background-color:rgb(65,105,225);
+    border: 2px solid paleturquoise;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-bottom: 8px;
+    box-shadow: 8px 8px 10px lightskyblue;
+}
+#buton:hover
+{
+    background-color:lightseagreen;
+    color: black;
+    
+}
+#member,a
+{
+    text-decoration: none;
+}
+/*SIGN-UP FORM css code
+.container1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Signup
+{
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-color: white;
+    width: 530px;
+    height: 530px;
+    padding-left: 20px;
+}
+.Signupbt
+{
+
+    flex-wrap: wrap;
+    width: 250px;
+    background-color:rgb(65,105,225);
+    border: 2px solid paleturquoise;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-bottom: 8px;
+    box-shadow: 8px 8px 10px lightskyblue;
+}
+.Signupbt:hover
+{
+    background-color:lightseagreen;
+    color: black;
+}
+input:hover{
+    border: 2px solid lightslategray;
+}
+/*@media only screen and(max-width: 700px){
+    .container1
+{
+    display: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+    .Signup
+{
+    margin-top: 30px;
+    background-color: white;
+    width: 200px;
+    height: 230px;
+    padding-left: 60px;
+}
+.Signupbt
+{
+    flex-wrap: wrap;
+    width: 150px;
+    background-color:rgb(65,105,225);
+    border: 2px solid paleturquoise;
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-bottom: 8px;
+    box-shadow: 8px 8px 10px lightskyblue;
+}
+    .Signup h1{
+        font-size: 12px;
+    }
+    .Signup p{
+        font-size: 8px;
+    }
+    .Signup form {
+        
+            width:50%;
+            margin-left:25%;
+            padding-left:0px;
+            padding-right:0px;
+    }
+    .Signup form  input[type="text"],input[type="password"],input[type="FirstName"],input[type="lastName"],input[type="email"]{
+        
+        width: 80%;
+
+    }
+    .Signupbt
+{
+    flex-wrap: wrap;
+    width: 80px;
+    background-color:rgb(65,105,225);
+    border: 2px solid paleturquoise;
+    font-size: 6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-bottom: 6px;
+    box-shadow: 8px 8px 10px lightskyblue;
+}
+.Signup input placeholder{
+font-size: 15px;
+}
+    
+}
+*/
